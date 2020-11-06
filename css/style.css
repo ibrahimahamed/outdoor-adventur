@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* =========global css========== */
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.align-items{
+    align-items: center;
+}
+.justify-content-end{
+    justify-content: flex-end;
+}
+.justify-content-center{
+    justify-content: center;
+}
+.col-12{
+    width: 100%;
+}
+.col-6{
+    width: 50%;
+    padding: 20px;
+}
+.col-4{
+    width: 33.33%;
+    padding: 15px;
+}
+/* =========header section css========= */
+.banner-section{
+    background: url("../img/hero-bg.jpg") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg{
+    background: rgba(4, 2, 25, 0.55);
+    padding: 10px 0px;
+}
+.border{
+    background: #fb2056;
+    width: 7%;
+    height: 3px;
+    margin: auto;
+}
+.border-1{
+    background: #fb2056;
+    width: 12%;
+    height: 3px;
+}
+.btn-info{
+    background: #fb2056;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #fff;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 12px 35px;
+    border: 1px solid transparent;
+    transition: .5s;
+}
+.btn-info:hover{
+    background: #fff;
+    color: #fb2056;
+    border: 1px solid #fb2056;
+}
+header{
+    width: 20%;
+}
+header .logo{
+    width: 65%;
+}
+nav{
+    width: 80%;
+}
+nav ul{
+    flex: 0 0 auto;
+}
+nav ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #fff;
+    padding: 10px 20px;
+    transition: .5s;
+}
+nav ul li a:hover{
+    color: #fb2056;
+}
+nav ul li a span{
+    color: #fb2056;
+}
+nav ul li a span:hover{
+    color: #fb2056;
+}
+.banner-inner{
+    text-align: center;
+    padding: 201px 0px;
+}
+.banner-inner h4{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.6;
+    text-transform: capitalize;
+}
+.banner-inner h2{
+    font-size: 67px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.6;
+    margin: 15px 0px;
+}
+/* =========text section css========= */
+.text-section{
+    background: #f4f5f9;
+    padding: 50px 0px;
+}
+.text-bg{
+    padding: 50px 0px;
+    background: url("../img/quote-1.png") left center no-repeat;
+    background-size: contain;
+}
+.text{
+    text-align: center;
+}
+.text p{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+.text p span{
+    display: block;
+    margin-top: 28px;
+}
+/* =========event section css========= */
+.event-section{
+    padding: 80px 0px;
+}
+h2{
+    font-size: 45px;
+    color: #222222;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.6;
+}
+.event-inner{
+    padding: 50px 20px 0px;
+    text-align: center;
+}
+.event-inner img{
+    border-radius: 5px;
+    box-shadow: 16px 16px 0px #EDEDED;
+}
+.event-inner h4{
+    font-size: 25px;
+    color: #222;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: capitalize;
+    margin: 20px 0px;
+}
+.event-inner p{
+    color: #222;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 31px;
+}
+/* =========explore section css========= */
+.explore-section{
+    background: url("../img/section-bg.jpg") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-2{
+    background-color: rgba(0,0,0,.60);
+    padding: 150px 0px;
+}
+.explore-section h2{
+    font-size: 41px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.6;
+}
+.explore-section p{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: capitalize;
+    margin: 60px 0px;
+}
+/* =========tours section css========= */
+.tours-section{
+    padding: 80px;
+}
+.tours-section h2{
+    font-size: 39px;
+    color: #222222;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1.6;
+}
+.tours-section p{
+    color: #222;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 30px 0px 60px;
+}
+.tours-section img{
+    padding: 10px;
+    border-radius: 15px;
+}
+/* =========footer section css========= */
+footer{
+    background: #191919;
+    padding: 30px 0px 10px;
+}
+footer p{
+    color: #fff;
+    font-size: 16px !important;
+    font-weight: 400;
+    line-height: 1.4;
+    padding: 15px 0px;
+}
