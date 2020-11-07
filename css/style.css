@@ -69,15 +69,14 @@ a, a:hover{
     width: 12%;
     height: 3px;
 }
-.btn-info{
+.btn-info {
     background: #fb2056;
     font-size: 18px;
     font-weight: 500;
     line-height: 1.1;
     color: #fff;
-    text-transform: uppercase;
     border-radius: 30px;
-    padding: 12px 35px;
+    padding: 6px 26px;
     border: 1px solid transparent;
     transition: .5s;
 }
@@ -102,7 +101,7 @@ nav ul{
 }
 nav ul li a{
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.1;
     color: #fff;
     padding: 10px 20px;
@@ -111,15 +110,14 @@ nav ul li a{
 nav ul li a:hover{
     color: #fb2056;
 }
-nav ul li .btn-info{
+nav ul li .btn-info {
     background: transparent;
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 1.1;
     color: #fff;
-    text-transform: uppercase;
     border-radius: 30px;
-    padding: 12px 35px;
+    padding: 6px 16px;
     border: 1px solid #fff;
     transition: .5s;
 }
