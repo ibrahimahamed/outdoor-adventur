@@ -56,7 +56,7 @@ a, a:hover{
 }
 .bg{
     background: rgba(4, 2, 25, 0.55);
-    padding: 10px 0px;
+    padding: 20px 0px;
 }
 .border{
     background: #fb2056;
@@ -75,7 +75,6 @@ a, a:hover{
     font-weight: 500;
     line-height: 1.1;
     color: #fff;
-    padding: 10px 20px;
     text-transform: uppercase;
     border-radius: 30px;
     padding: 12px 35px;
@@ -87,17 +86,19 @@ a, a:hover{
     color: #fb2056;
     border: 1px solid #fb2056;
 }
-header{
+.logo{
     width: 20%;
 }
-header .logo{
-    width: 65%;
+.logo img{
+    width: 100%;
+    width: 75%;
 }
 nav{
     width: 80%;
 }
 nav ul{
     flex: 0 0 auto;
+    justify-content: flex-end;
 }
 nav ul li a{
     font-size: 18px;
@@ -110,11 +111,22 @@ nav ul li a{
 nav ul li a:hover{
     color: #fb2056;
 }
-nav ul li a span{
-    color: #fb2056;
+nav ul li .btn-info{
+    background: transparent;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.1;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 30px;
+    padding: 12px 35px;
+    border: 1px solid #fff;
+    transition: .5s;
 }
-nav ul li a span:hover{
-    color: #fb2056;
+nav ul li .btn-info:hover{
+    background: #fb2056;
+    color: #fff;
+    border: 1px solid #fff;
 }
 .banner-inner{
     text-align: center;
@@ -174,7 +186,7 @@ h2{
 }
 .event-inner img{
     border-radius: 5px;
-    box-shadow: 16px 16px 0px #EDEDED;
+    box-shadow: 14px 14px 0px #EDEDED;
 }
 .event-inner h4{
     font-size: 25px;

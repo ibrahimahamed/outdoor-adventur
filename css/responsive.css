@@ -1,26 +1,249 @@
 @media (max-width: 1399px){
     .container{
-        width: 1000px;
+        width: 1200px;
+    }
+    .banner-inner {
+        padding: 161px 0px;
     }
 }
 @media (max-width: 1199px){
     .container{
-        width: 900px;
+        width: 1000px;
+    }
+    header .logo {
+        width: 70%;
+    }
+    .btn-info {
+        font-size: 16px;
+        padding: 12px 30px;
+    }
+    .banner-inner h2 {
+        font-size: 63px;
+    }
+    .event-inner p {
+        font-size: 17px;
+    }
+    .explore-section h2 {
+        font-size: 39px;
+    }
+    .explore-section p {
+        font-size: 16px;
+        margin: 50px 0px;
+    }
+    .tours-section h2 {
+        font-size: 32px;
+    }
+    .tours-section p {
+        font-size: 16px;
     }
 }
-@media (max-width: 992px){
+@media (max-width: 991px){
+    .container{
+        width: 900px;
+    }
+    header .logo {
+        width: 75%;
+    }
+    .btn-info {
+        font-size: 14px;
+        padding: 12px 25px;
+    }
+    nav ul li a {
+        padding: 10px 15px;
+    }
+    .text p {
+        font-size: 15px;
+        line-height: 1.3;
+    }
+    .text p span {
+        margin-top: 18px;
+    }
+    .banner-inner h4 {
+        font-size: 28px;
+    }
+    .banner-inner h2 {
+        font-size: 56px;
+    }
+    h2 {
+        font-size: 38px;
+    }
+    .event-inner h4 {
+        font-size: 23px;
+    }
+    .event-inner p {
+        font-size: 15px;
+    }
+    .explore-section h2 {
+        font-size: 37px;
+    }
+    .explore-section p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+    .tours-section h2 {
+        font-size: 29px;
+    }
+    .tours-section p {
+        color: #222;
+        font-size: 14px;
+    }
+    footer p {
+        font-size: 15px !important;
+    }
+}
+@media (max-width: 768px){
     .container{
         width: 700px;
     }
-}
-@media (max-width: 767px){
-    .container{
-        width: 500px;
+    .btn-info {
+        padding: 12px 20px;
+    }
+    nav ul li a {
+        font-size: 16px;
+        padding: 10px 10px;
+    }
+    .banner-inner {
+        padding: 184px 0px;
+    }
+    .banner-inner h4 {
+        font-size: 25px;
+    }
+    .banner-inner h2 {
+        font-size: 50px;
+    }
+    .text p {
+        font-size: 14px;
+    }
+    .explore-section h2 {
+        font-size: 29px;
+    }
+    .explore-section p {
+        font-size: 13px;
+        margin: 33px 0px;
+    }
+    .tours-section .col-4 {
+        width: 33.33%;
+        padding: 0px;
+    }
+    .tours-section img {
+        width: 90%;
+        padding: 0px;
+        border-radius: 5px;
+    }
+    .tours-section h2 {
+        font-size: 24px;
+    }
+    .tours-section p {
+        font-size: 13px;
+        margin: 15px 0px 30px;
+    }
+    footer p {
+        font-size: 13px !important;
     }
 }
-@media (max-width: 576px){
+@media (max-width: 575px){
     .container{
         width:100%;
-        padding: 0px 50px;
+    }
+    .logo{
+        width: 100%;
+    }
+    .logo img {
+        width: 37%;
+        display: block;
+        margin: auto;
+    }
+    nav{
+        width: 100%;
+    }
+    nav ul{
+        justify-content: center;
+        margin-top: 30px;
+    }
+    nav ul li a {
+        font-size: 20px;
+        padding: 10px 10px;
+    }
+    nav ul li .btn-info {
+        margin-top: 14px !important;
+        display: inline-block;
+        padding: 12px 20px !important;
+    }
+    .banner-inner {
+        padding: 40px 0px;
+    }
+    .banner-inner h2 {
+        font-size: 45px;
+        margin: 10px 0px 0px;
+    }
+    .btn-info {
+        font-size: 15px !important;
+        padding: 10px 41px !important;
+    }
+    .text-section {
+        background: #f4f5f9;
+        padding: 30px 0px;
+    }
+    .text-bg {
+        padding: 0px 0px;
+    }
+    .text p {
+        font-size: 15px;
+    }
+    .event-section {
+        padding: 30px 0px;
+    }
+    h2 {
+        font-size: 33px;
+    }
+    .event-section .col-6 {
+        width: 100%;
+        padding: 30px 31px 0px;
+    }
+    .event-inner {
+        padding: 30px 0px 0px;
+    }
+    .event-inner h4 {
+        font-size: 40px;
+    }
+    .event-inner p {
+        font-size: 18px;
+    }
+    .explore-section .col-6 {
+        width: 100%;
+        padding: 0px 31px 0px;
+    }
+    .border-1 {
+        margin: auto;
+    }
+    .bg-2 {
+        padding: 44px 0px;
+    }
+    .justify-content-end {
+        justify-content: center;
+        text-align: center;
+    }
+    .explore-section h2 {
+        font-size: 29px;
+    }
+    .explore-section p {
+        font-size: 13px;
+        margin: 33px 0px;
+    }
+    .tours-section {
+        padding: 29px 0px 29px;
+    }
+    .tours-section .col-4 {
+        width: 100%;
+        padding: 0px;
+    }
+    .text p {
+        font-size: 14px;
+    }
+    .mr{
+        margin-bottom: 30px;
+    }
+    .img{
+        text-align: center;
     }
 }
